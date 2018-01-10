@@ -1,3 +1,85 @@
-﻿img{
-    width: 100%
+﻿@import url('https://fonts.googleapis.com/css?family=PT+Sans|Playfair+Display');
+
+body{
+    font-family: 'PT Sans', sans-serif;
+    background-color: #eeeeee;
+}
+
+container{
+    background-color: #111111;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Playfar Display', serif;
+}
+
+img{
+    width: 100%;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/laptop-2443052.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header img{
+    width: 6vw;
+    bottom: 0;
+    position: absolute;
+
+}
+
+.header h1{
+    padding-top: 50vh;
+    color: white;
+    text-shadow: 2px 2px 4px #000000; 
+}
+
+.subheader{
+    height: 30vw;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2{
+    padding-top: 1vw;
+    color: white;
+    text-shadow: 2px 2px 4px #000000; 
+}
+
+.top{
+    text-align: center;
+}
+
+.source{
+    text-align: right;
+}
+
+#sub1{
+    background-image: url(../images/mobile-phone-1875813.jpg);
+}
+
+#sub2{
+    background-image: url(../images/computer-2982270.jpg);
+}
+
+#sub3{
+    background-image: url(../images/macbook-577758.jpg);
+}
+
+#sub4{
+    background-image: url(../images/filmmaker-2838932.jpg);
+}
+
+#sub5{
+    background-image: url(../images/office-583839.jpg);
 }
